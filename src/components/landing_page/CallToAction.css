@@ -1,0 +1,23 @@
+.cta-section {
+    background-color: #2ca58d;
+    /* Teal background */
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-section .btn {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+}
+
+.cta-section .btn:hover {
+    background-color: #217a6d;
+}

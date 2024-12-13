@@ -1,0 +1,33 @@
+.features-section {
+    background-color: #f8f9fa;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    color: #03045e;
+}
+
+.features-section .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.features-section .card-title {
+    font-size: 1.25rem;
+    color: #03045e;
+}
+
+.features-section .card-text {
+    color: #495057;
+}
+
+.features-section .btn-outline-primary {
+    border: 2px solid #2ca58d;
+    color: #2ca58d;
+}
+
+.features-section .btn-outline-primary:hover {
+    background-color: #2ca58d;
+    color: white;
+}
