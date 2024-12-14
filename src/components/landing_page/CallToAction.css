@@ -21,3 +21,9 @@
 .cta-section .btn:hover {
     background-color: #217a6d;
 }
+
+.call-to-action-buttons {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}

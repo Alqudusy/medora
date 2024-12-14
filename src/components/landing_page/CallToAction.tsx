@@ -9,7 +9,7 @@ const CallToAction: React.FC = () => {
             <Container className="text-center text-white">
                 <h2>Ready to Take Control of Your Health?</h2>
                 <p>Start your health journey today by checking your symptoms and finding nearby healthcare centers.</p>
-                <div>
+                <div className="call-to-action-buttons">
                     {/* Primary CTA Button */}
                     <Link to="/signup">
                         <Button variant="light" size="lg" className="mr-3">

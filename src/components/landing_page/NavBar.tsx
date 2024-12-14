@@ -1,14 +1,18 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const LandingNavbar: React.FC = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" sticky="top">
             <Container>
                 {/* Logo */}
-                <Navbar.Brand href="#home" className="fw-bold">
-                    Medora
-                </Navbar.Brand>
+                <Link to='/'>
+                    <Navbar.Brand className="fw-bold">
+                        Medora
+                    </Navbar.Brand>
+                </Link>
+
 
                 {/* Hamburger Menu for Mobile */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

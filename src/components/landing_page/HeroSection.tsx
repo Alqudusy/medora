@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
                             Medora is your AI-powered health symptom checker and local healthcare navigator.
                             Get personalized insights and find nearby healthcare services effortlessly.
                         </p>
-                        <div className="d-flex gap-3 justify-content-center justify-content-md-start">
+                        <div className="d-flex gap-3 justify-content-center justify-content-md-start mb-2">
                             <Button href="#signup" variant="success" size="lg">
                                 Get Started
                             </Button>
